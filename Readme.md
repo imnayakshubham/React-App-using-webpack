@@ -17,7 +17,8 @@ npm install
 After completing the installation, you can use the following npm scripts:
 
 - `npm start`: Starts the development server and opens the application in your default browser.
-- `npm run build:dev`: Builds the project for production, generating the bundled files in the build directory.
+- `npm run build:dev`: Builds the project for development, generating the bundled files in the build directory.
+- `npm run build:prod`: Builds the project for production, generating the bundled files in the build directory.
 
 ## Configuration
 The webpack configuration file (webpack.config.js) is responsible for configuring the build process. Here are some key features of the configuration:
